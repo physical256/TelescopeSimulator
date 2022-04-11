@@ -19,7 +19,7 @@ class Telescope(object):
         aperture (float): The telescope's aperture.
         slew_speed (float): The telescope's Maximum slew speed.
 
-    Written: David J. Law, 2022
+    Written: David J. Law, 2022-04-11
     '''
     def __init__(self, name, latitude, longitude, altitude, azimuth, elevation,
                  focal_length, aperture, slew_speed, slew_step_azimuth, slew_step_altitude):
